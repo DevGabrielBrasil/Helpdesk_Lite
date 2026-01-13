@@ -1,0 +1,22 @@
+:root {
+  --max-w: 1100px;
+}
+
+#root {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.brand-title {
+  color: var(--brand);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.card {
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
